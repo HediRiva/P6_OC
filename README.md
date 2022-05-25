@@ -1,33 +1,30 @@
 # P6_OC
 # Hedi_Rivas_6_18052022 : HOT TAKES
 
-Ce répository contient le code du projet n°6 du cursus "Développeur Web" d'Openclassrooms.
+Ce répository contient le code du projet n°6 du cursus "Développeur Web" d'Openclassrooms qui consistait à créer une API pour un site de référencement et de notations de sauces.
 
-Il s'agit de **Hot Takes** : une applications de notations de critique de sauces piquantes !
+Voici les étapes à suivre pour pouvoir faire fonctionner le projet :
 
-Pour faire fonctionner ce projet, il faut tout tout d'abord installer le frontend de l'application situé à l'adresse suivante et suivre les instructions :
+**1/ Cloner le repo suivant sur votre machine puis suivre les instructions indiquées : https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6 , cela correspond au frontend du projet. 
 
-https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
 
-Une fois le projet installé, créer un dossier backend en dehors du dossier Web-Developer-P6 puis cloner le repository suivant :
+**2/ Créer un dossier `backend` en dehors du dossier Web-Developer-P6 puis cloner le repository suivant : `https://github.com/HediRiva/P6_OC.git` ,
+(Il faudra également créer dans le dossier backend un dossier nommé : `images`. Celui-ci contiendra toutes les images que vous utiliserez à la création d'une sauce)
 
-`https://github.com/HediRiva/P6_OC.git`
 
-Faites ensuite un `npm install` et `npm install nodemon` pour installer les packages nécessaires à l'utilisation du backend.
+**3/ Dans le terminal, placez vous dans le dossier `backend` et faites un `npm install` et `npm install nodemon` pour installer les packages nécessaires à l'utilisation du backend.
 
-Il faudra également créer dans le dossier backend un dossier nommé : `images`. Celui-ci contiendra toutes les images que vous utiliserez à la création d'une sauce.
 
-Ce projet utilise les variables d'environnements (.dotenv) pour protéger les mots de passes et le token appelé dans le code.
-Il faut donc créer un fichier .env à la racine du dossier backend et renseigner les lignes suivantes :
+**4/ Ce projet utilise les variables d'environnements (.dotenv) pour protéger les mots de passes et le token appelé dans le code.
+Il faudra donc créer un fichier .env à la racine du dossier backend et taper les lignes suivantes :
 
-- `MongoDB_USER = "ajouter ici l'adresse d'accès à la base de données que vous souhaitez utiliser"`
-- `MY_TOKEN = 'ajouter ici un token aléatoire'`
+ `MongoDB_USER = "ajouter ici l'adresse d'accès à votre base de données"`
+ `MY_TOKEN = 'ajouter ici un token aléatoire'`
 
-Pour ce projet j'utilise mongoDB (une base de données gratuite). Vous pouvez en créer une rapidement en suivant ce cours :
+Dans ce projet il a été demander d'utiliser mongoDB (une base de données gratuite), pour avoir plus d'infos sur cette base de données et savoir comment l'utiliser vous pouvez regarder ce cours => `https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6466348-configurez-votre-base-de-donnees`
 
-https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6466348-configurez-votre-base-de-donnees
 
-Une fois l'installation terminée, il faut lancer deux terminaux :
 
-- depuis le dossier `backend` lancez la commande `nodemon server`
-- depuis le dossier `Web-Developer-P6` (qui contient le frontend) lancez la commande `npm start`
+**5/ Une fois l'installation terminée, lancez deux terminaux :
+
+Placez vous dans le  dossier `backend` puis lancez la commande `nodemon server` et placez vous dans le dossier `Web-Developer-P6` (qui contient le frontend) puis lancez la commande `npm start`
