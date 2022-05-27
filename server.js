@@ -1,3 +1,5 @@
+/** Configuration du serveur en HTTP */
+
 const http = require('http');
 const app = require('./app');
 

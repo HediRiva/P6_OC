@@ -1,5 +1,10 @@
+/** Initialisation de mongoose qui permettre d'utiliser
+ * la méthode .Schema() pour modéliser les données,
+ * et qui créer une connexion entre mongoDB et Express
+ */
 const mongoose = require('mongoose');
 
+/** Création du schéma d'une sauce */
 const saucesSchema = mongoose.Schema({
   userId: { type: String, required: true },
   name: { type: String, required: true },
