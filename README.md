@@ -1,7 +1,7 @@
 # P6_OC
 # Hedi_Rivas_6_18052022 : HOT TAKES
 
-Ce répository contient le code du projet n°6 du cursus "Développeur Web" d'Openclassrooms qui consistait à créer une API pour un site de référencement et de notations de sauces.
+Ce repository contient le code du projet n°6 du cursus "Développeur Web" d'Openclassrooms qui consistait à créer une API pour un site de référencement et de notations de sauces.
 
 Voici les étapes à suivre pour pouvoir faire fonctionner le projet :
 
