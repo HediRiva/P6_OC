@@ -5,7 +5,7 @@ Ce repository contient le code du projet n°6 du cursus "Développeur Web" d'Ope
 
 Voici les étapes à suivre pour pouvoir faire fonctionner le projet :
 
-**1/ Cloner le repo suivant sur votre machine: https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6 , le mettre dans un dossier frontend et lancer un `npm run start`. 
+**1/ Cloner le repo suivant sur votre machine: https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6 , le mettre dans un dossier frontend puis dans un terminal placez vous dans le dossier frontend et lancez `npm run start`. 
 
 
 **2/ Créer un dossier `backend` en dehors du dossier Web-Developer-P6 puis cloner le repository suivant : `https://github.com/HediRiva/P6_OC.git` ,
